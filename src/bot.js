@@ -11,32 +11,32 @@ class PingController extends TelegramBaseController {
      * @param {Scope} $
      */
     oiCommand($) {
-        //$.sendMessage('Olá,Tudo bem? você já conhece o Guilherme M. Pereira?')
-        $.runMenu({
-            message: 'Select:',
-            options: {
-                parse_mode: 'Markdown' // in options field you can pass some additional data, like parse_mode
-            },
-            'Exit': {
-                message: 'Do you realy want to exit?',
-                resizeKeyboard: true,
-                'yes': {
-                    message: 'Então sai safado!',
-                    resizeKeyboard: true,
-                },
-                'no': () => {
+        $.sendMessage('Olá,Tudo bem? você já conhece o Guilherme M. Pereira?')
+        // $.runMenu({
+        //     message: 'Select:',
+        //     options: {
+        //         parse_mode: 'Markdown' // in options field you can pass some additional data, like parse_mode
+        //     },
+        //     'Exit': {
+        //         message: 'Do you realy want to exit?',
+        //         resizeKeyboard: true,
+        //         'yes': {
+        //             message: 'Então sai safado!',
+        //             resizeKeyboard: true,
+        //         },
+        //         'no': () => {
          
-                }
-            },
-            'anyMatch': () => { //will be executed at any other message
+        //         }
+        //     },
+        //     'anyMatch': () => { //will be executed at any other message
          
-            }
-        })
+        //     }
+        // })
     }
     belezaCommand($) {
         //$.sendMessage('Você já conhece o Guilherme M. Pereira?')
         //$.sendPhoto({ path: 'images.jpg'})
-        $.sendPhoto({ path: 'WhatsApp Video 2018-07-16 at 20.35.10.mp4'})
+        $.sendPhoto({ path: '454.jpg'})
         //$.sendPhoto($.InputFile.byFilePath('../images.jpg'))
     }
     criadorCommand($) {
