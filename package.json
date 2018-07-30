@@ -1,5 +1,5 @@
 {
-  "name": "eventos-tech-bot",
+  "name": "telegram_bot_and_selenium",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -14,16 +14,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarcoBrunoBR/eventos-tech-bot.git"
+    "type": "git"
   },
   "keywords": [
     "chatbot"
   ],
-  "author": "Marco Bruno",
-  "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://github.com/MarcoBrunoBR/eventos-tech-bot/issues"
-  },
-  "homepage": "https://github.com/MarcoBrunoBR/eventos-tech-bot#readme"
+  "author": "Guilherme Pereira"
 }
